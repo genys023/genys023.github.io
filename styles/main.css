@@ -1,0 +1,391 @@
+
+body {
+    background-color: #d9d9d9;
+    font-family:'Open Sans', sans-serif;
+    -webkit-transition: .1s;
+    transition: .1s;
+}
+
+.jumbotron1 {
+    padding-top: 140px;
+    height: 100vh;
+    /*background-image: url(../images/wall1.jpg);*/
+    color: white;
+    background-size: cover;
+    text-shadow: 0px 0px 5px black;
+}
+
+
+.stopScroll {
+    overflow: hidden;
+}
+
+
+::-webkit-scrollbar {
+    width: 12px;
+
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.2);
+    border-radius: 10px;
+    background-color: #bfbfbf;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.8);
+    background-color: #999999;
+}
+
+
+
+
+.infoBox {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    color: white;
+    text-shadow: 0px 0px 15px black;
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+#firstBox {
+    /*background-image: url(../images/mac1.jpg);*/
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#j1text {
+    font-size: 650%;
+}
+
+.infoBoxHeader {
+    font-size: 150%;
+    font-family: 'Baloo Paaji', cursive;
+    text-shadow: 0px 0px 7px black;
+}
+
+#testBox {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+#secondBox {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    /*background-image: url(../images/white.jpg);*/
+    background-color: #f2f2f2;
+    /*background-size: contain;
+    background-repeat:repeat;*/
+    box-shadow: 0px 0px 5px grey;
+    text-shadow: 0px 0px 0px black;
+    box-shadow: 0px 0px 30px black;
+    color: #262626;
+    /*background-image: url(../images/phone1.jpg);*/
+}
+
+#secondBox .infoBoxHeader {
+    color: #262626;
+    text-shadow: 0px 0px 0px black;
+}
+
+#thirdBox {
+    /*background-image: url(../images/mountains.jpg);*/
+    margin-bottom: 0px;
+
+    
+}
+
+.product {
+    background-color: rgba(0,0,0,.6);
+    padding: 2px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 4px black;
+    border-radius: 2px;
+    margin: 10px;
+    -webkit-transition: .1s;
+    transition: .1s;
+}
+
+.product:hover {
+    -webkit-transform: scale(1.05,1.05);
+    transform: scale(1.05,1.05);
+    box-shadow: 0px 0px 6px black;
+    background-color: rgba(0,0,0,.7);
+}
+
+
+
+#myNav {
+    background-color: rgba(0,0,0,.9);
+    position: fixed;
+    width: 100%;
+}
+
+#navLogo {
+    color: white;
+    font-size: 150%;
+    font-weight: bold;
+    -webkit-transition: .1s;
+    transition: .1s;
+
+}
+
+#navLogo:hover {
+    color: #cccccc;
+    -webkit-transform: scale(1.1,1.1);
+    transform: scale(1.1,1.1);
+}
+
+#navLogo:active {
+    -webkit-transform: scale(1,1);
+    transform: scale(1,1);
+}
+
+
+
+
+
+#services-inner {
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.service-div {
+	width: 100%;
+	min-height: 100px;
+	background-color: #0059b3;
+    padding: 5px;
+    padding-top: 35px;
+    margin-bottom: 15px;
+    color: white;
+    border-radius: 1px;
+	border: 0;
+    -webkit-transition: .1s;
+    transition: .1s;
+    visibility: hidden;
+    font-size: 100%
+}
+
+.service-div:hover {
+	background-color: darkgreen;
+    -webkit-transform: scale(1.03,1.03);
+    transform: scale(1.03,1.03);
+}
+
+
+
+
+
+.fa {
+    text-shadow: 0px 0px 6px black;
+}
+
+.service-div > i {
+    color: white;
+}
+
+footer {
+    background-color: rgb(10,10,10);
+    padding: 30px;
+    margin: 0px;
+    color: grey;
+}
+
+
+
+ul li a {
+    -webkit-transition: .1s;
+    transition: .1s;
+
+}
+
+ul li a:hover {
+    -webkit-transform: scale(1.2,1.2);
+    transform: scale(1.2,1.2);
+}
+
+ul li a:active {
+    -webkit-transform: scale(1,1);
+    transform: scale(1,1);
+}
+
+
+
+.myButton {
+    background-color: green;
+    border-radius: 0px;
+    font-size: 130%;
+    color: white;
+    margin-top: 20px;
+    -webkit-transition: .2s;
+    transition: .2s;
+    box-shadow: 0px 0px 3px black;
+    -webkit-animation-delay: 1s; /* Chrome, Safari, Opera */
+    animation-delay: 1s;
+
+}
+
+
+
+.myButton:hover {
+    background-color: forestgreen;
+    color: white;
+    -webkit-transform: scale(1.2,1.2);
+    transform: scale(1.2,1.2);
+    box-shadow: 0px 0px 6px black;
+    
+}
+
+.myButton:active {
+    background-color: darkgreen;
+    -webkit-transform: scale(0.9,0.9);
+    transform: scale(1.1,1.1);
+}
+
+
+#myImage {
+    /*visibility: hidden;*/
+    
+    width: 160px; 
+    margin: 0 auto;
+    border: 4px solid white;
+    box-shadow: 0px 0px 10px black;
+    -webkit-transition: .2s;
+    transition: .2s;
+}
+
+#myImage:hover {
+    -webkit-transform: scale(1.35,1.35);
+}
+
+
+#navContact {
+    background-color: rgba(120,120,120,.7);
+    color: white;
+}
+
+
+
+
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	/*background: url(../scripts/simple-pre-loader/images/loader-128x/Preloader_2.gif) center no-repeat #fff;*/
+	background: url(../images/load8.gif) center no-repeat #fbfbfb;
+}
+
+
+#contactBox { 
+    border-radius: 2px;
+    padding: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#contactDetails {
+    background-color: rgba(200,200,200,.1);
+    box-shadow: inset 0px 0px 7px black;
+    padding: 1px 20px 1px 20px;
+    border-radius: 2px;
+    margin-bottom: 14px;
+    border: 1px solid rgba(0,0,0,.7);
+}
+
+
+
+#noScript {
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 8px black;
+    max-width: 400px;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #b30000;
+    font-weight: bold;
+    text-shadow: 0px 0px 5px black;
+    color: white;
+}
+
+
+
+
+/*********************************************/
+
+@media (max-width: 765px) {
+    ul li a:hover {
+        -webkit-transform: scale(1,1);
+        transform: scale(1,1);
+    }
+    
+    ul li a {
+        font-size: 120%;
+    }
+    
+    
+    #marginTop {
+        margin-top: 70px;
+    }
+}
+
+
+
+@media (max-width: 480px){
+    .jumbotron1 {
+        
+    }
+    
+    .infoBox {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    
+    #secondBox {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+
+    
+    .infoBox h2 {
+        font-size: 160%;
+    }
+    
+    .infoBoxHeader {
+        font-size: 130%;
+    }
+
+    
+    #j1text {
+        font-size: 400%;
+    }
+}
+
+
+
+
+
+/*********************************************/
+
+
+
+
+
+
+
+#contactInfoBox {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
